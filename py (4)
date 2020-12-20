@@ -1,0 +1,336 @@
+1--what is python?
+
+python is a both object oriented & fucntion oriented high level programming language with class, object, function, exception and automatically mermory management.
+it is one of the fastest programming language as it requires less lines of code
+python is very easy programming language which make it a great choice for begginners.
+
+2--what is PEP 8?
+ PEP 8 is python's style guide.Its a set of rules for how to format your python code to maximize its readability.
+
+3--what is pickling & unpickling?
+
+the process of seperating data from an object is called pickling
+to perform pickling we have to use dump() from pickle module
+
+the process of reconstruct an object on the basis of data is called as unpickling.
+to perform unpickling we have to use load() from pickle module
+
+to perfrom  both pickling and pickling python has provided a predifined library is the from of pickle module 
+
+
+4--what is python decorators?
+decorator is a function it will take a function as parameter and it will extand its functionality and it will return the modified functions
+the main intention of decorators is to extand the existed method functionality without changing its code.
+
+
+5-- what is generators in python?
+generator is a function which is responsible to generate a sequence of values, by using yield keyword.
+
+6--what is lambda in python?
+name less function is called anonymous function.
+anonymous functins is also called lambdas.
+in general we will use lambda when we want to pass one function as parameter to another functions.
+
+7--why lambda forms in python doesnot have statement?
+
+
+
+8--what is name space in python?
+
+9--in python what are iterator?
+
+
+10--what is unit test in python?
+
+
+11-- what is slicing?
+the slice() return a slice object that can used to slice string,tuple,list etc..`
+
+12--what is docstring in python??
+a python documentation string is known as docstring,it is a way of documenting python fuctions,modules, classes
+
+
+13--how can you copy an object in python?
+to copy an object in python use can try copy.copy() or copy.deepcopy() for the genral case. you can not copy all the object but most of them
+
+
+14--diff between range and xrange?
+range() & xrange() are two function that could be used to iterate a certain no of times in for loops in python. In python3 there is no xrange,but range() behave like xrange in python2
+
+
+15--what is module & package in python??
+module is the way to structure programe.
+each python program is  a module.
+the folder of python program is a packege of modules,a package can have modules or sub folder.
+
+
+16--mention rule of local var & global var?
+ local:- if a variable is assigned anywhere with in the function body, its assumed to be local,it can be accessed only with in the block in which it has defined
+
+global:- those variable that are decleared outside of the function its assumed to be global we can access its variable at anywhere
+
+
+--explain how can you make a python script executable on unix?
+to make a python script executable on the unix, you need to do two things
+1) scripts file mode must be executable
+2)the first line must begain with #
+
+
+--explain how to delete a file in python?
+by using command os.remove(filename) or os.unlink(filename)
+
+
+--explain how can you genrate random no in python?
+to genrate random no in pytho n you need to-
+import random
+random.random()
+this returm a rendom floting point no in the range[0,1]
+
+
+--explain how can you access a module written in python from c?
+ you can access a module written in python from c by following method 
+module==PyImport_ImportModule("<module name>");
+
+
+--five benifit of python?
+1-python does not require explicit memory management.
+itself it is allocate the momery to new variable and free them automaticallyfor row in range(0,10):
+2-provide easy readibility due to use of squre bracket.
+3-easy to learn for beginners.
+4-having the buit-in datatype saves programming time and effort from declearing variable
+5- python having huge standard library for must internet plateforms like email,html
+
+--use of split()
+if we want to split a string into no of substring in the from of a list then we have to use .split()
+
+--what is flast,pyramid,django?
+flask is a web microfreamework for python, by using flask you build for a small application.
+pyramid are build for larger application.
+django are also build for larger application
+
+--explain what is Dogpile effect? how can you prevent this effect?
+Dogpile effect is reffred to the event when cache expire, and website are hit by the multiple request made by the client at the same time
+this effect can be prevent by using semaphore lock.in this system when value expires first process acquires the lock & starts generating new value
+
+--what is data Abstraction?
+Data abstraction refers to providing only neccessery information about data to the outside world,hiding the background details or implimentation.
+
+
+--what is encapsulation?
+Encapsulation is the wrapping,just hiding properties & method.Encapsultion is used for hide the code & data in a single unit to protech the data from the outside the world. Class is the best example of encapsulation.
+
+--what is enum??
+enum is a class in python for creating enumeration, which are a set of symbolic names bound to unique,constent values.
+by using type() we can check the enum type.
+
+
+--diff betweem script & program
+a program(process) is a set of instruction
+a script is a sub program or sub process
+
+--what is compiler?
+it a translator which is used to convert the source code(high level code)into machine code all at once if all instrucations are correct
+
+--diff between compiler & interprator?
+compiler is a  translator which is used to convert the source code(high level code)into machine code all at once if all instrucations are correct.
+interprator also a translator it translate the code line by line & genrate the output for tanslated instructions
+
+
+--why python is interprator programming language
+python code need not be compiled.
+python inteprator is able to run the source code directly & genrate output
+
+
+--use of pass keyword
+"pass" keyword is used to define empty blocks,function, classes
+
+--use of "break" keyword
+"break" is used to terminate the flow of a loop
+
+--use of chr() 
+it is used to convert corressponding interger value to specified symbol
+
+
+-what is class?
+the complete representation of real world entity is called class
+it a blue print or model of object
+
+
+--what is object?
+a real world entity with an identity,properties & functionality
+identity is unique & it is used to access the object
+
+--describe self reference variable.
+it hold object address. 
+To refer current class variables and current class methods by using 'self' variable.
+
+--what is the need of encapsulation?
+protecting the object member(data & code)
+
+--what is inheritance?
+it is a relation between calsses,it will provide variable & function from one class[parent class] to another class[child class] inoder to improve code resuability.
+
+--Advantage of Inheritance?
+-code reusability(Declare variables and methods one time in super class then access that variables and methods in any no of times in sub classes.)
+- minimize the amount of duplicate code
+-inheritance can also make application code more flexible
+
+
+
+--is python are object oriented programming language?
+yesss python is fully object oriented programming language.Every data is repersented in the form of object .it doesn't supprot primtive types
+
+
+
+--what is function?
+ in genral we need to execute a set of instructions repeatedly ,if we provide the same set of instructions again & again as the requirement then code will be increased, it is not suggestable in any application.
+function is a set of instrucations to repersent a particular action.
+
+--advantage of fuction??
+-code reuseability 
+-easy implementation of application
+
+--what is the use of a global keyword?
+-this keyword is used to create global variable from a non-global scope.i.e inside a function
+
+--what is method overraiding?
+defining a method in the child class with the same name & same signature of parent class method
+overriding can be implimented only in parent child relation
+
+--need of method overrading?
+the main advantage of method overrading is to update parent object functionality in the child class if it is not sufficent to child class
+
+
+--what is the object reference variable?
+a user variable that holds the address of object is called object reference variable.
+
+--diff match() & search() in RE.
+match() is used to check whether the strings starts with specified pattern or not
+search() is used to find whether the strings contains specified pattern or not
+
+
+--define polymorphism?
+defining an object(class) that shows different behavior(functionlity) with the same identity,it is called polymorphism.
+
+-- what is runtime polymorphism?
+it is also called dynamin binding.it method overriding technique.
+
+
+--how can we achive method overloading?
+it is not possible to impliment method overloading in python programming language.Overloading is called compile time binding.But python is a interprator programming language.
+
+--what is constructor?
+it is a specified method call automatically in object creation process.
+
+
+--can i access 'self' any where in the program.
+'self' is an argument of function or constructor.
+'argument' are working like local variable & local variable can be accessed only with in the function.
+
+
+--what is execption?
+it is a run time error.
+execption provides informal information to end-user
+
+
+--how to handel execption in python?
+by using try-except blocks
+
+--what is try?
+-it is a keyword
+-it is a block of instructioin
+-doubtful code that raises execptions must be placed inside the try block in execption handling
+
+
+--what is except block?
+-except block contain exception handeling logic
+-exception execute only if an exception has risen in try block
+
+
+--why handling exception?
+the exception causes abnoraml termination of program execution
+the exception provides informal information to end-user
+
+
+--Advantage of except block?
+it avoid abnormal termination of the program in cause of exception.
+it is used to provide formal information to end-user
+
+--what is exception object?
+
+
+--what is multitasking?
+performing more than one task simulteneously in the application
+
+
+--Advantage of multitasking?
+the best utilization of the CPU resource & complete the task prallel processing
+
+
+--what is the diff between multi-tasking & multithreading?
+-in multitasking , n tasks execute in n process spaces where as in multithreading , n tasks execute in single process space.
+
+
+--how to create a thread??
+By extending the functonality of the pre-defined thread class. Thread class belongs to a module called "thrading"
+
+
+--what is the use of run() method?
+it is the pre-defined method available in thread class.
+it is used to place the thread logic that will execute parallel & independent from thared space
+
+--can we call a run() method directly?
+yes,but the login excute from the current thread space.
+
+
+--why do we need to call the start() method to start a thread?
+start() method provides pre-defined logic to allocate the thread space from which run() method logic execute independently
+
+--what is the use of sleep() method?
+sleep() method is used to stops theread execution for the specified no of millisec
+
+
+--diff between sleep() & join()
+sleep() method stops the thread execution for the specified no of sec
+join() method stops the thread untill joined thread execution complete
+
+
+--what is synchorization?
+allowing threads sequentially when multiple threads are trying to access a resources
+
+
+
+
+
+
+
+
+
+
+
+
+ashwinibhure7916@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

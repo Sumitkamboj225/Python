@@ -1,0 +1,122 @@
+Ternary Operator..!
+
+a=int(input("Enter First Number:"))
+b=int(input("Enter Second Number:"))
+min=a if a<b else b
+print("Mininum Value:",min)
+
+Q----> Program for minimun 3 numbers:---
+
+x=int(input("Enter First Number:"))
+y=int(input("Enter Second Number:"))
+z=int(input("Enter THree Number:"))
+min=x if x<y and x<z else y if y<z else z
+print("Minimun Value:",min)
+
+Q----> Program for Maximun 3 numbers:---
+
+x=int(input("Enter First Number:"))
+y=int(input("Enter Second Number:"))
+z=int(input("Enter THree Number:"))
+max=x if x>y and x>z else y if y>z else z
+print("Maximun Value:",max)
+
+a=int(type("Enter first Number:"))
+b=int(type("Enter Second Number:"))
+print("Both numbers are equal"if a==b else "First Number is less than Second Number" if a<b else "First Number Greater than Second Number")
+
+
+
+>>> x="durga"
+>>> y="durga"
+>>> x is y
+True
+>>> x is not y
+False
+
+>>> x=True
+>>> y=True
+>>> x is y
+True
+ 
+>>> x=["saurabh","sumit","suraj","suyog"]
+>>> y=["saurabh","sumit","suraj","suyog"]
+>>> x is y
+False
+>>> x is not y
+True
+
+
+list1=[10,20,30]
+list2=[10,20,30]
+print(list1 is list2)
+print(id(list1))
+print(id(list2))
+print(list1 is not list2)
+print(list1 == list2)
+
+
+
+eNumber=int(input("Enter Employee Number ID:"))
+eName=input("Enter Employee Name:")
+esal=float(input("Enter Employee Salary:"))
+eADD=input("Enter Employee Address:")
+Married=bool(input("Enter Employee Married [True|False]:"))
+print("Confirm Your Employee Data..!")
+print("Employee Number",eNumber)
+print("Employee NAme",eName)
+print("Employee sal",esal)
+print("Employee Address",eADD)
+print("Employee Married",Married)
+
+
+O/p----->
+Enter Employee Number ID:10
+
+Enter Employee Name:sumit
+
+Enter Employee Salary:100000
+
+Enter Employee Address:hyd
+
+Enter Employee Married [True|False]:True
+Confirm Your Employee Data..!
+Employee Number 10
+Employee NAme sumit
+Employee sal 100000.0
+Employee Address hyd
+Employee Married True
+
+
+a,b=[int(x) for x in input("Enter 2 Number..!").split()]
+print("The Product is",a*b)
+
+
+a,b,c=[float(x)for x in input("Enter 2 number ::").split(',')]
+print("Addition of Three number",a+b+c)
+
+Method ---> I
+x=int(input("Enter two number:"))
+y=int(input("Enter Two number:"))
+print("sum of two numer:",x+y)
+print("difference of two numer:",x-y)
+print("product of two numer:",x*y)
+
+
+Method ---> II
+a = int(input("two number:"))
+b = int(input("two number:"))
+print('{0} \n{1} \n{2}'.format((a + b), (a - b), (a * b)))
+
+
+
+for x in 'python':
+    if letter =='p':
+        pass
+    print("this is pass block")
+print("current letter:",letter)
+
+
+import datetime
+x=datetime.datetime.now()
+print(type(x.strftime("%H")))
